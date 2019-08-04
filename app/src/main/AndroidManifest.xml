@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.codeyourapp.shoppinglist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"> <!-- Name der Klasse die beim Start geöffnet wird-->
+            <intent-filter> <!-- startet die Activity, bzw wann gestartet wird-->
+                <action android:name="android.intent.action.MAIN" /> <!-- Haupteinstiegspunkt der App ist MainActivity-->
+                <category android:name="android.intent.category.LAUNCHER" /> <!--Erstellt das Icon im AppLauncher von Anroid-->
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

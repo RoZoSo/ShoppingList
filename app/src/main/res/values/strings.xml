@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ShopList</string>
+
+    <!--Define string-constants for app here-->
+    <!--this makes it easyer to control them later-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="editText_hint_quantity">Anzahl</string>
+    <string name="editText_hint_product">Produkt</string>
+    <string name="button_add_product">+</string>
+
+    <string name="editText_errorMessage">Das Feld darf nicht leer sein.</string>
+
+    <string name="cab_delete">Einträge löschen</string>
+
+    <string name="cab_change">Eintrag ändern</string>
+    <string name="cab_checked_string">ausgewählt</string>
+
+    <string name="dialog_title">Listeneintrag ändern</string>
+    <string name="dialog_title_quantity">Anzahl:</string>
+    <string name="dialog_title_product">Produkt:</string>
+    <string name="dialog_button_positive">Ändern</string>
+    <string name="dialog_button_negative">Abbrechen</string>
+
+</resources>
